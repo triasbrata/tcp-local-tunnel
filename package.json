@@ -11,7 +11,7 @@
     "index.js"
   ],
   "scripts": {
-    "start-example": "node ./example/remoteServer.js",
+    "start": "node ./example/remoteServer.js",
     "release": "release-it"
   },
   "repository": {
