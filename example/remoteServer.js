@@ -7,6 +7,6 @@ proxyServer({
   tunnelPort: 8010,
   proxyHost:process.env.MASTER_IP,
   // Uncomment below to enable transport encryption::
-  encKey: 'triasbrata',
-  encIv: 'trias@123'
+  encKey: process.env.encKey,
+  encIv: process.env.encIv
 });
