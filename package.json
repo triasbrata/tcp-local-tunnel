@@ -11,8 +11,7 @@
     "index.js"
   ],
   "scripts": {
-    "start": "node ./example/remoteServer.js",
-    "release": "release-it"
+    "start": "node ./example/remoteServer.js"
   },
   "repository": {
     "type": "git",
@@ -21,9 +20,7 @@
   "homepage": "https://github.com/jayu/tcp-local-tunnel#tcp-local-tunnel",
   "author": "Jakub Mazurek @jayu",
   "license": "MIT",
-  "devDependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "release-it": "^14.2.1"
+  "dependencies": {
+    "dotenv": "^10.0.0"
   }
 }
