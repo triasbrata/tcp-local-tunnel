@@ -2,7 +2,7 @@ require("dotenv").config();
 const { client } = require("../index");
 client(
   {
-    host: "localhost",
+    host: process.env.tunnelHosts,
     port: process.env.tunnelPort,
     // Uncomment below to enable transport encryption::
     encKey: process.env.encKey,
